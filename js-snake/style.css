@@ -1,0 +1,15 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden; /* Prevents scrollbars */
+    background-color: #1e1e1e;
+}
+
+body {
+    /* Styles moved to html, body */
+}
+
+canvas {
+    display: block; /* Removes extra space below the canvas */
+    background-color: #1e1e1e; /* Match body background for letterboxing */
+}
